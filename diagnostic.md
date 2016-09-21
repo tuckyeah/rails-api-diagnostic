@@ -11,13 +11,13 @@ A backend allows us to store (and then access) data. Data will persist, and not 
 Which layer in the MVC pattern is used by the controller to fetch data?
 
 ```bash
-The server or router takes the request from the client, and passes it to the controller, which then communicates with the model to fetch data from the database.
+The server or router takes the request from the client, and passes it to the controller, which then communicates with the model to fetch data from the database. So, the model.
 ```
 
 Which layer in the MVC pattern communicates with the model?
 
 ```bash
-The controller communicates with the model, which then goes to the serializer.
+The controller communicates with the model.
 ```
 
 Why don't we use views in our interpretation of the MVC pattern?
